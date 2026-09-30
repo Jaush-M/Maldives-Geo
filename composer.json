@@ -1,12 +1,22 @@
 {
-  "name": "aharen/maldives-geo",
+  "name": "jaush-m/maldives-geo",
   "description": "Atolls & Islands of Maldives for PHP",
   "type": "library",
   "license": "MIT",
+  "keywords": [
+    "maldives",
+    "atolls",
+    "islands",
+    "geo"
+  ],
+  "homepage": "https://github.com/Jaush-M/Maldives-Geo",
   "authors": [
     {
       "name": "Ahmed Khusaam",
       "email": "hello@khusaam.com"
+    },
+    {
+      "name": "Jaush"
     }
   ],
   "minimum-stability": "stable",
@@ -19,6 +29,9 @@
     "phpunit/phpunit": "^12.0.3"
   },
   "require": {
-    "php": "^8.1|^8.2|^8.3|^8.4"
+    "php": "^8.1"
+  },
+  "replace": {
+    "aharen/maldives-geo": "self.version"
   }
 }

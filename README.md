@@ -1,5 +1,7 @@
 # Atolls & Islands of Maldives for PHP
 
+> Maintained fork of [aharen/maldives-geo](https://github.com/aharen/Maldives-Geo) with no runtime dependencies (drops `dusank/knapsack` / `illuminate/collections`, which emit deprecation warnings on PHP 8.4). The `aharen\MaldivesGeo` namespace is unchanged, so it is a drop-in replacement.
+
 All data collected from [www.atollsofmaldives.gov.mv](https://www.atollsofmaldives.gov.mv/atolls).
 
 If you're looking for a simple JS or JSON version [naxeem/maldives-atoll-islands](https://github.com/naxeem/maldives-atoll-islands)
@@ -7,7 +9,7 @@ If you're looking for a simple JS or JSON version [naxeem/maldives-atoll-islands
 ## Installation
 
 ```
-composer require aharen/maldives-geo
+composer require jaush-m/maldives-geo
 ```
 
 ## Usage
